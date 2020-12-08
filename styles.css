@@ -67,7 +67,7 @@ a:hover {
   display: none;
 }
 
-/*MEDIA QUERY START (950px)*/
+/*MEDIA QUERY START (60px)*/
 @media (max-width: 950px) {
   label.logo {
     font-size: 30px;
