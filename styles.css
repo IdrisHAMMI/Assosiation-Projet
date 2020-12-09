@@ -16,6 +16,10 @@ img {
   margin-left: 20px;
 }
 
+.placeholder {
+  float: absolute;
+}
+
 nav {
   background: #13abf185;
   height: 80px;
@@ -74,16 +78,28 @@ a:hover {
   font-family: Arial;
 }
 
-#container {
-  background: black;
-	width: 424px;
-	color: white;
-  padding: 5px;
-  border-radius: 5px;
+.grid {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 6% 2%;
 }
 
-.theme-paragraph {
-  float: bottom;
+.xop-grid {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.xop-grid:after {
+  clear: both;
+}
+
+.xop-grid:after, .xop-grid:before {
+  content: "";
+  display: table;
 }
 
 /*MEDIA QUERY START (950px)*/
