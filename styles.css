@@ -169,7 +169,7 @@ a:hover {
 }
 /*MEDIA QUERY END (950px)*/
 
-/*MEDIA QUERY START(515px)*/
+/*MEDIA QUERY START(532px)*/
 @media (max-width: 532px) {
   .checkbtn {
     display: block;
@@ -207,4 +207,4 @@ a:hover {
     left: 0; 
   }
 }
-/*MEDIA QUERY END (515px)*/
+/*MEDIA QUERY END (532px)*/
