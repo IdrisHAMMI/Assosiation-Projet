@@ -119,6 +119,7 @@ a:hover {
   -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out; 
   -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
   transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   display: block;
 }
 
@@ -127,15 +128,15 @@ a:hover {
 }
 
 .xop-img-1 {
-  background-image: url(img/placeholder.jpg);
+  background-image: url(img/homework.png);
 }
 
 .xop-img-2 {
-  background-image: url(img/placeholder.jpg);
+  background-image: url(img/testsport.png);
 }
 
 .xop-img-3 {
-  background-image: url(img/placeholder.jpg)
+  background-image: url(img/cultural.png)
 }
 
 .xop-img-4 {
@@ -153,6 +154,11 @@ a:hover {
     margin: 0 30px;
     padding: 140px 0 0 0;
     line-height: 1.5;
+  }
+
+  p {
+    background-color: white;
+    border-radius: 5px;
   }
 /*GRID EVENT END*/
 
@@ -211,6 +217,9 @@ footer {
 
   #check:checked ~ ul {
     left: 0; 
+  }
+  .xop-box {
+    grid-column: span 2;
   }
 }
 /*MEDIA QUERY END (532px)*/
