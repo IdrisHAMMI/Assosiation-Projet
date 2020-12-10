@@ -138,6 +138,10 @@ a:hover {
   background-image: url(img/placeholder.jpg)
 }
 
+.xop-img-4 {
+  background-image: url(img/placeholder.jpg)
+}
+
 .xop-info {
   position: absolute;
   width: inherit;
@@ -166,7 +170,7 @@ a:hover {
 /*MEDIA QUERY END (950px)*/
 
 /*MEDIA QUERY START(515px)*/
-@media (max-width: 515px) {
+@media (max-width: 532px) {
   .checkbtn {
     display: block;
   }
