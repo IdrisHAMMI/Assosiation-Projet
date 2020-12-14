@@ -10,12 +10,16 @@ body {
   font-family: Calibri;
   font-size: 17px;
   background-color:  #b1dfe2;
+  display: flex;
+  flex-direction: column;
 }
 
-img {
+.logo {
   float: left;
   margin-left: 30px;
   height: 100%;
+  height: 74;
+
 }
 h4 {
   text-align: center;
@@ -77,6 +81,10 @@ a:hover {
   text-align: center;
   margin-top: 30px;
   font-family: Arial;
+}
+
+h2 {
+  text-align: center;
 }
 
 /*GRID EVENT START*/
@@ -161,6 +169,13 @@ a:hover {
     border-radius: 5px;
     padding: 10px;
   }
+
+  .harvest-img {
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+  
 /*GRID EVENT END*/
 
 footer {
