@@ -7,8 +7,9 @@
 }
 
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: rgb(128, 138, 141);
+  font-family: Calibri;
+  font-size: 17px;
+  background-color:  #b1dfe2;
 }
 
 img {
@@ -85,7 +86,7 @@ a:hover {
   padding: 2%;
 }
 
-.xop-grid {
+.grid {
   margin: 20px 0 0 0;
   padding: 0;
   list-style: none;
@@ -93,23 +94,23 @@ a:hover {
   width: 100%;
 }
 
-.xop-grid:after {
+.grid:after {
   clear: both;
 }
 
-.xop-grid:after, .xop-grid:before {
+.grid:after, .grid:before {
   content: "";
   display: table;
 }
 
-.xop-grid li {
+.grid li {
   width: 328px;
   height: 328px;
   display: inline-block;
   margin: 20px;
 }
 
-.xop-box {
+.grid-box {
   width: 100%;
   height: 100%;
   position: relative;
@@ -122,33 +123,33 @@ a:hover {
   display: block;
 }
 
-.xop-box:hover {
+.grid-box:hover {
   transform: scale(1.05);
 }
 
-.xop-img-1 {
+.grid-img-1 {
   background-image: url(img/homework.png);
 }
 
-.xop-img-2 {
+.grid-img-2 {
   background-image: url(img/testsport.png);
 }
 
-.xop-img-3 {
+.grid-img-3 {
   background-image: url(img/cultural.png)
 }
 
-.xop-img-4 {
+.grid-img-4 {
   background-image: url(img/computer.png)
 }
 
-.xop-info {
+.grid-info {
   position: absolute;
   width: inherit;
   height: inherit;
 }
 
-.xop-info h3 {
+.grid-info h3 {
     font-size: 42px;
     margin: 0 30px;
     padding: 90px 0 0 0;
@@ -201,14 +202,14 @@ footer {
 
   nav ul li {
     display: block;
-    margin: 50px 0;
+    margin: 30px 0;
     line-height: 15px;
   }
 
-  nav u li a {
-    font-size: 20px;
+  nav ul li a {
+    font-size: 17px;
     margin: 50px 0;
-    line-height: 20px;
+    line-height: 40px;
   }
   
   a:hover, a.active {
@@ -219,7 +220,7 @@ footer {
   #check:checked ~ ul {
     left: 0; 
   }
-  .xop-box {
+  .grid-box {
     grid-column: span 2;
   }
   .grid-container {
