@@ -256,5 +256,10 @@ footer {
   li:not(:last-child) {
     margin-bottom: 5px;
 }
+
+.harvest-img {
+  width: 75%;
+}
+
 }
 /*MEDIA QUERY END (532px)*/
